@@ -58,11 +58,13 @@ border-radius: 5px;
 
 .card h1{
     font-size: 1.3rem;
-    color: var(--Yellow);
     cursor: pointer;
 }
 
-
+.card h1:hover{
+    color: var(--Yellow);
+    transition-duration: 500ms;
+}
 
 
 .name{
